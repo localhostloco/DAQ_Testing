@@ -1,0 +1,8 @@
+Bundle-Version: 0.0.0.${tstamp}
+Bundle-Activator: testing.Impl.Activator
+Import-Package:  \
+	datalogger,\
+	datalogger.drivers,\
+	*
+Private-Package:  \
+	testing.Impl
